@@ -145,35 +145,46 @@ module.exports = {
     extend: {
       colors: {
         primary: "#00283D",
-        primaryLight: "#4C5E73",
         primaryDark: "#001622",
+
+        primaryLight: "#4C5E73",
+        primaryLightDark: "#7BB4E3",
+
         secondary: "#1e7b85",
         secondaryDark: "#14605a",
+
         secondaryLight: "#59a7a4",
-        dark: "#0D1426",
-        iconGray: "#E4E6F0",
-        listBlue: "#EBEDF7",
-        textGray: "#C4C6D3",
-        darkBlue: "#0D247F",
-        default: "#F2F3F4",
-        defaultLight: "#E6E7E807",
-        danger: "#DD2D2D",
-        dangerLight: "#DD2D2D07",
-        warning: "#FFAC32",
-        warningLight: "#FFAC3207",
-        success: "#14AD5B",
-        successLight: "#14AD5B07",
-        info: "#4099D9",
-        infoLight: "#4099D907",
-        white: "#FFFFFF",
-        indigo: "#7D8AC9",
-        gray01: "#FEFEFE",
-        gray1: "#F2F3F4",
-        gray15: "#d9d9d9",
-        gray2: "#AAADB6",
-        gray3: "#757986",
-        gray4: "#656565",
+        secondaryLightDark: "#D4D4D4",
+
+        danger: "orangered",
+        dangerDark: "#b13000",
+
+        dangerLight: "#ffede6",
+        dangerLightDark: "#ffaf92",
+
+        default: "#ECECEC",
+        defaultLight: "#ECECEC",
+        defaultDark: "#E6E6E6",
+
+        black: "#000",
+        white: "#FFF",
+
+        sidebarBg: "#DFE2DE",
+
+        grayDefault: "#E6E6E6",
+        grayText: "#595959",
+
         backdrop: "#0000009c",
+
+        bgDefault: "#f1f2f2",
+      },
+      fontFamily: {
+        sans: ["Cooper Hewitt", "lato", "arial", "sans-serif"],
+      },
+      extend: {
+        borderRadius: {
+          lg: "10px",
+        },
       },
     },
   },
